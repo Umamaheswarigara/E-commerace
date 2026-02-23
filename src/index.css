@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #F4F8FC;
+}
+
+/* AUTH PAGES */
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #365F8B, #4C78A8);
+}
+
+.auth-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.auth-box h2 {
+  color: #2F4F6F;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.auth-box input:focus {
+  outline: none;
+  border: 1px solid #4C78A8;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  background: #4C78A8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.auth-box button:hover {
+  background: #365F8B;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background: #2F4F6F;
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar button {
+  background: #4C78A8;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background: #365F8B;
+}
+
+/* DASHBOARD */
+
+.dashboard {
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.dashboard h1 {
+  color: #2F4F6F;
+}
+
+/* PRODUCTS GRID */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* PRODUCT CARD */
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
+  color: #2F4F6F;
+}
+
+.card button {
+  margin-top: 10px;
+  background: #4C78A8;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.card button:hover {
+  background: #365F8B;
+}
+
+/* CART */
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.05);
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 15px 0 5px;
+  color: #2F4F6F;
+}
+
+.card p {
+  margin: 5px 0 10px;
+}
+
+.card button {
+  margin-top: auto;
+}
